@@ -7,7 +7,7 @@ gekko:
   links:
     - redis
   environment:
-   - HOST=trade.prob.club
+   - HOST=trader.prob.club
    - PORT=80
   ports: # you can comment this out when using the nginx frontend
     - 3000:80
