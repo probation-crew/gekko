@@ -8,9 +8,9 @@ gekko:
     - redis
   environment:
    - HOST=trade.prob.club
-   - PORT=3000
+   - PORT=80
   ports: # you can comment this out when using the nginx frontend
-    - "${PORT}:${PORT}"
+    - 3000:80
 ## optionally set nginx vars if you wish to frontend it with nginx
 #  environment:
 #    - VIRTUAL_HOST=gekko
