@@ -16,4 +16,7 @@ if(config.ssl) {
 } else {
   var wsPath = `ws://${host}`;
 }
+
+console.log(host, wsPath, restPath);
+
 export {wsPath,restPath};
